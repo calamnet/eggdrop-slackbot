@@ -1,7 +1,7 @@
 # webhook settings
 webhook:
     # this is the "Webhook URL" under your Incoming Webhook's Integration Settings
-    url:   https://hooks.slack.com/services/<therest/ofthe/path>
+    url:   https://hooks.slack.com/services/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
 
     # whether or not to automatically unfurl links in slack; links such as
     # youtube/twitter/flicker/xkcd will do unfurl regardless of the setting
@@ -13,9 +13,7 @@ channel:
     # works with public channels and private groups and does not matter if you prefix the slack channel with #
     mapping:
         # format: <irc_channel>: <slack_channel>
-        "#lounge": "#general"
-        "#random": "#random"
-        "#secret": "myprivategroup"
+        "#internal": "#internal"
 
     # prefixes for bot commands that will not be echoed to slack; for instance, if you set 
     # a command prefix of "!c", then "!test" will be pushed to slack but "!cmd" will not.
