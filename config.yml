@@ -13,7 +13,7 @@ channel:
     # works with public channels and private groups and does not matter if you prefix the slack channel with #
     mapping:
         # format: <irc_channel>: <slack_channel>
-        "#internal": "#internal"
+        "#shameless": "#internal"
 
     # prefixes for bot commands that will not be echoed to slack; for instance, if you set 
     # a command prefix of "!c", then "!test" will be pushed to slack but "!cmd" will not.
