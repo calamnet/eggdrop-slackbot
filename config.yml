@@ -1,7 +1,7 @@
 # webhook settings
 webhook:
     # this is the "Webhook URL" under your Incoming Webhook's Integration Settings
-    url:   https://hooks.slack.com/services/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
+    url:   https://hooks.slack.com/services/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
 
     # whether or not to automatically unfurl links in slack; links such as
     # youtube/twitter/flicker/xkcd will do unfurl regardless of the setting
